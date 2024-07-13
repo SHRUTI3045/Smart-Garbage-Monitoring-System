@@ -25,7 +25,7 @@ This project aims to create a smart dustbin level monitoring system using ESP826
 
 ## Circuit Diagram
 
-![Circuit Diagram](sketch_may10d.ino)
+![Circuit Diagram](Screenshot 2024-07-13 144710.png)
 
 ## Installation
 1. Install the Required Libraries:
