@@ -54,7 +54,7 @@ Connect your ESP8266 to your computer and upload the smart_dustbin_monitor.ino f
 
 ## Code
 
-![Code](path_to_your_circuit_diagram_image)
+![Code](sketch_may10d.ino)
 
 1. **Clone the Repository:**
    ```sh
