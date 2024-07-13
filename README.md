@@ -25,9 +25,15 @@ This project aims to create a smart dustbin level monitoring system using ESP826
 
 ## Circuit Diagram
 
-![Circuit Diagram](path_to_your_circuit_diagram_image)
+![Circuit Diagram]()
 
 ## Installation
+Install the Required Libraries:
+
+- ESP8266WiFi
+- Adafruit MQTT Library
+- ArduinoJson Library
+You can install these libraries using the Arduino Library Manager.
 
 1. **Clone the Repository:**
    ```sh
