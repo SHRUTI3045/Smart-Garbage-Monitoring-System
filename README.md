@@ -28,14 +28,35 @@ This project aims to create a smart dustbin level monitoring system using ESP826
 ![Circuit Diagram]()
 
 ## Installation
-Install the Required Libraries:
+1. Install the Required Libraries:
 
 - ESP8266WiFi
 - Adafruit MQTT Library
 - ArduinoJson Library
 You can install these libraries using the Arduino Library Manager.
 
+2. Configure Your WiFi and Adafruit IO Credentials:
+Open the smart_dustbin_monitor.ino file and update the following lines with your credentials:
+
+      const char* ssid = "your_wifi_ssid";
+      const char* password = "your_wifi_password";
+      #define AIO_USERNAME "your_aio_username"
+      #define AIO_KEY "your_aio_key"
+3. Upload the Code:
+Connect your ESP8266 to your computer and upload the smart_dustbin_monitor.ino file using the Arduino IDE.
+
+## Usage
+- Power On:
+  Power on the ESP8266. It will connect to the WiFi network and Adafruit IO.
+
+- Monitor Data:
+  The dustbin level data will be published to Adafruit IO. You can monitor the data on your Adafruit IO dashboard.
+
+## Code
+
+![Code](path_to_your_circuit_diagram_image)
+
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/yourusername/smart-dustbin-monitor.git
-   cd smart-dustbin-monitor
+   git clone https://github.com/SHRUTI3045/Smart-Garbage-Monitoring-System/tree/main
+   cd Smart-Garbage-Monitoring-System
