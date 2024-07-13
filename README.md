@@ -56,7 +56,9 @@ Connect your ESP8266 to your computer and upload the smart_dustbin_monitor.ino f
 
 ![Code](sketch_may10d.ino)
 
-1. **Clone the Repository:**
-   ```sh
-   git clone https://github.com/SHRUTI3045/Smart-Garbage-Monitoring-System/tree/main
-   cd Smart-Garbage-Monitoring-System
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+            This README file includes sections for introduction, components, circuit diagram, installation, usage, and the code itself. You can customize the README further based on your specific project requirements and preferences.
+
